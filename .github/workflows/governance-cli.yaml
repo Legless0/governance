@@ -30,6 +30,6 @@ jobs:
         run: >
           anypoint-cli-v4 governance:api:validate
           c8816973-0064-4b8a-80cb-480706d35c4a/quotes-api/1.0.1
-          --remote-rulesets 68ef9520-24e9-4cf2-b2f5-620025690913/anypoint-best-practices/1.6.1
+          --remote-rulesets c8816973-0064-4b8a-80cb-480706d35c4a/custom-best-practices/1.0.0
           --remote --client_id deda28841acc4c77bf753103e5053712 
           --client_secret 3de524d2DDD24e73b51768cfB2029446 --environment Sandbox
